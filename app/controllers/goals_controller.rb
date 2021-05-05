@@ -4,7 +4,6 @@ class GoalsController < ApplicationController
 
   # GET /goals
   def index
-    byebug
     @goals = current_user.goals.all
   end
 
